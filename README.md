@@ -6,7 +6,7 @@
 3. 环境变量设置
   - 脚本通过环境变量获取配置参数，确保敏感信息不会直接硬编码在代码中。你需要在 Cloudflare Workers 的配置中设置以下环境变量：
 
-`TG_BOT_TOKEN`：你的 `Telegram Bot Token`。
-`TG_CHAT_ID`：你要发送消息的 Telegram 群或个人的 Chat ID。
-`HX_EMAIL`：用于登录红杏加速器的邮箱。
-`HX_PSD`：用于登录红杏加速器的密码。
+  - `TG_BOT_TOKEN`：你的 `Telegram Bot Token`。
+  - `TG_CHAT_ID`：你要发送消息的 Telegram 群或个人的 Chat ID。
+  - `HX_EMAIL`：用于登录红杏加速器的邮箱。
+  - `HX_PSD`：用于登录红杏加速器的密码。
